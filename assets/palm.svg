@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-180 -360 380 380" aria-hidden="true"><defs>
+
+<symbol id="palm" overflow="visible">
+  <path d="M0 0 C 6 -80, -10 -160, 20 -240" fill="none" stroke="currentColor" stroke-width="11" stroke-linecap="round"/>
+  <g fill="currentColor">
+    <path d="M20 -240 C -30 -270, -90 -250, -130 -200 C -80 -225, -40 -225, 20 -240Z"/>
+    <path d="M20 -240 C 70 -270, 130 -250, 170 -200 C 120 -225, 80 -225, 20 -240Z"/>
+    <path d="M20 -240 C -10 -300, -60 -320, -100 -310 C -60 -300, -30 -280, 20 -240Z"/>
+    <path d="M20 -240 C 50 -300, 100 -320, 140 -310 C 100 -300, 70 -280, 20 -240Z"/>
+    <path d="M20 -240 C -40 -230, -100 -190, -120 -130 C -80 -180, -40 -200, 20 -240Z"/>
+    <path d="M20 -240 C 80 -230, 140 -190, 160 -130 C 120 -180, 80 -200, 20 -240Z"/>
+    <path d="M20 -240 C 8 -290, 14 -330, 20 -345 C 34 -320, 42 -280, 20 -240Z"/>
+  </g>
+</symbol>
+
+</defs><use href="#palm" color="#0a0416"/></svg>

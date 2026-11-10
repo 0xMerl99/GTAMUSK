@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GTA Musk — The Meme Edition</title>
+  <meta name="description" content="GTA Musk: The Meme Edition. One man. One rocket. A whole lot of chaos. A fan-made Vice City–style parody.">
+  <meta name="theme-color" content="#0b0618">
+  <meta property="og:title" content="GTA Musk — The Meme Edition">
+  <meta property="og:description" content="The meme is the mission. A fan-made Vice City–style parody.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Space+Mono:wght@400;700&family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <a class="nav__brand" href="#home" aria-label="GTA Musk — The Meme Edition, back to top">
+      <span class="nav__logo">GTA MUSK</span>
+      <span class="nav__sub">THE MEME EDITION</span>
+    </a>
+    <span class="nav__tag">STARBASE <i>/</i> MARS</span>
+  </header>
+
+  <!-- ============ HUD (fills as you scroll) ============ -->
+  <aside class="hud" aria-hidden="true">
+    <div class="hud__money" id="hudMoney">$0</div>
+    <div class="hud__stars" id="hudStars">
+      <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+    </div>
+  </aside>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero__sky" aria-hidden="true">
+        <div class="hero__stars"></div>
+        <div class="hero__mars"></div>
+        <div class="hero__sun" id="sun"></div>
+        <div class="hero__skyline"></div>
+        <div class="hero__floor"><div class="hero__grid"></div></div>
+        <img class="hero__palm hero__palm--l" src="assets/palm.svg" alt="">
+        <img class="hero__palm hero__palm--r" src="assets/palm.svg" alt="">
+      </div>
+
+      <div class="hero__inner">
+        <!-- Click-to-copy chip: change the word inside .chip__text and that's exactly what gets copied. -->
+        <p>
+          <button class="label label--blink chip" type="button" id="copyChip" title="Click to copy">
+          <span class="sr">Click to copy: </span><span class="chip__text">sol11111111111111111111111111111111111</span>
+          <svg class="chip__icon chip__icon--copy" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16 8V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h2" fill="none" stroke="currentColor" stroke-width="2.4"/></svg>
+          <svg class="chip__icon chip__icon--ok" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="square"/></svg>
+        </button>
+        </p>
+        <p class="label label--blink">STARBASE AFTER DARK <span>//</span> 001</p>
+        <h1 class="title" aria-label="GTA Musk, VI Edition">
+          <span class="title__main" data-text="GTA MUSK">GTA MUSK</span>
+          <span class="title__sub">VI&nbsp;EDITION</span>
+        </h1>
+        <p class="tagline">THE MEME IS THE MISSION.</p>
+        <p class="blurb">One man. One rocket. A whole lot of chaos.</p>
+
+        <div class="cta">
+          <a class="btn btn--primary" href="https://x.com/GTAMUSK" target="_blank" rel="noopener noreferrer">
+            <span class="btn__in">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="3.2" stroke-linecap="square" fill="none"/></svg>
+              <span><b>FOLLOW ON X</b><small>JOIN THE CREW</small></span>
+            </span>
+          </a>
+          <!-- Put your link in href. For an external site keep target="_blank" rel="noopener noreferrer". -->
+          <a class="btn btn--ghost" href="https://pump.fun/coin/sol11111111111111111111111111111111111" target="_blank" rel="noopener noreferrer">
+            <span class="btn__in">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c3 3 4 7 4 11l3 4-4-1h-6l-4 1 3-4c0-4 1-8 4-11z" fill="currentColor"/><circle cx="12" cy="10" r="1.8" fill="#0b0618"/></svg>
+              <span><b>SHARE THE MISSION</b><small>SPREAD THE MEME</small></span>
+            </span>
+          </a>
+        </div>
+
+        <a class="scroll" href="#cover" aria-label="Scroll to the cover art"><span>SCROLL</span><i></i></a>
+      </div>
+    </section>
+
+    <!-- ============ TICKER ============ -->
+    <div class="ticker" aria-label="Satirical news ticker">
+      <div class="ticker__track">
+        <span><b>WEAZEL NEWS</b> LIVE FROM STARBASE</span>
+        <span>BREAKING: LOCAL MAN ASKS ROCKET TO LAND ITSELF — ROCKET AGREES</span>
+        <span>VICE CITY TRAFFIC UP 300% — TUNNELS PROPOSED</span>
+        <span>FORECAST: CLEAR SKIES, SLIGHT CHANCE OF LAUNCH</span>
+        <span>SOCIAL NETWORK RENAMED TO SINGLE LETTER — OFFICIALS "FINE WITH IT"</span>
+        <span>MARS REPORTS RECORD LEVELS OF ANTICIPATION</span>
+        <span><b>WEAZEL NEWS</b> LIVE FROM STARBASE</span>
+        <span>BREAKING: LOCAL MAN ASKS ROCKET TO LAND ITSELF — ROCKET AGREES</span>
+        <span>VICE CITY TRAFFIC UP 300% — TUNNELS PROPOSED</span>
+        <span>FORECAST: CLEAR SKIES, SLIGHT CHANCE OF LAUNCH</span>
+        <span>SOCIAL NETWORK RENAMED TO SINGLE LETTER — OFFICIALS "FINE WITH IT"</span>
+        <span>MARS REPORTS RECORD LEVELS OF ANTICIPATION</span>
+      </div>
+    </div>
+
+    <!-- ============ COVER ============ -->
+    <section class="section cover" id="cover">
+      <div class="wrap">
+        <figure class="case reveal">
+          <div class="case__spine" aria-hidden="true"><span>GTA MUSK</span></div>
+          <div class="case__art">
+            <img src="assets/gta-musk-cover.jpg" width="1365" height="768" alt="AI-generated GTA-style cover art: Elon Musk in an open palm-print shirt aiming a handgun, a woman behind him, a pastel Miami-style skyline and a helicopter in the background.">
+            <div class="case__title" aria-hidden="true">
+              <i>M</i>
+              <span>GTA MUSK</span>
+              <small>THE MARS EDITION</small>
+            </div>
+            <div class="case__shine" aria-hidden="true"></div>
+          </div>
+          <figcaption class="caption"><span>THE COVER</span><em>001</em><span>/ GTA MUSK</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ ENTER THE GAME ============ -->
+    <section class="section enter" id="enter">
+      <div class="wrap">
+        <header class="head reveal">
+          <p class="label">PRESS START</p>
+          <h2 class="h2">ENTER THE GAME</h2>
+        </header>
+
+        <div class="tiles">
+          <a class="tile reveal" href="#missions">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3v18M5 4h12l-3 4 3 4H5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg>
+            <small>MISSION LIST</small>
+            <b>THE MISSIONS</b>
+            <span class="tile__go">GO →</span>
+          </a>
+          <a class="tile tile--cyan reveal" href="#city">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21V10l4-2v13M9 21V4l5-2v19M16 21V9l5 2v10" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+            <small>STARBASE FILES</small>
+            <b>THE CITY</b>
+            <span class="tile__go">GO →</span>
+          </a>
+          <button class="tile tile--gold reveal" type="button" id="copyBtn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M16 8V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h2" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>
+            <small>PAGE LINK</small>
+            <b>COPY LINK</b>
+            <span class="tile__go">COPY →</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MISSIONS ============ -->
+    <section class="section missions" id="missions">
+      <div class="wrap">
+        <header class="head reveal">
+          <p class="label">STORY MODE <span>//</span> 5 MISSIONS</p>
+          <h2 class="h2">MISSION LOG</h2>
+        </header>
+
+        <ol class="mlist">
+          <li class="mission reveal">
+            <span class="mission__n">01</span>
+            <div class="mission__body">
+              <h3>BUY THE BIRD</h3>
+              <p>Acquire a social network. Rename it to a single letter. Completely normal behaviour.</p>
+            </div>
+            <span class="mission__reward"><small>REWARD</small>$44,000,000,000</span>
+          </li>
+          <li class="mission reveal">
+            <span class="mission__n">02</span>
+            <div class="mission__body">
+              <h3>CATCH THE ROCKET</h3>
+              <p>Grab a 70-metre booster out of the sky with giant chopsticks. Do not drop it.</p>
+            </div>
+            <span class="mission__reward"><small>REWARD</small>ONE (1) BOOSTER</span>
+          </li>
+          <li class="mission reveal">
+            <span class="mission__n">03</span>
+            <div class="mission__body">
+              <h3>DIG A TUNNEL</h3>
+              <p>Skip the traffic. Go underground. Sell the merch.</p>
+            </div>
+            <span class="mission__reward"><small>REWARD</small>NO MORE TRAFFIC</span>
+          </li>
+          <li class="mission reveal">
+            <span class="mission__n">04</span>
+            <div class="mission__body">
+              <h3>DRIVE THE CYBERTRUCK</h3>
+              <p>Angular. Unstoppable. Park it anywhere. Do not throw anything at the windows.</p>
+            </div>
+            <span class="mission__reward"><small>REWARD</small>EXTREME ANGLES</span>
+          </li>
+          <li class="mission mission--final reveal">
+            <span class="mission__n">05</span>
+            <div class="mission__body">
+              <h3>GO TO MARS</h3>
+              <p>The final mission. One-way ticket. Bring snacks.</p>
+            </div>
+            <span class="mission__reward"><small>REWARD</small>MULTIPLANETARY</span>
+          </li>
+        </ol>
+
+        <p class="passed reveal" aria-hidden="true">MISSION PASSED!</p>
+      </div>
+    </section>
+
+    <!-- ============ WIDE ============ -->
+    <section class="section city" id="city">
+      <div class="wrap wrap--wide">
+        <figure class="wide reveal">
+          <img src="assets/gta-musk-wide.jpg" width="1364" height="768" alt="AI-generated GTA-style scene: Elon Musk in a tank top and camo shorts riding a dirt bike with a woman on the back firing a pistol, chased by a police car and a helicopter past palm trees." loading="lazy">
+          <figcaption class="caption caption--wide"><span>THE CITY IS YOURS.</span><em>STARBASE FILES / 002</em></figcaption>
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p class="footer__line">© GTA MUSK — THE MEME IS THE MISSION.</p>
+    <p class="footer__legal">
+      Fan-made parody for entertainment only. Not affiliated with, endorsed by, or connected to Elon Musk, Rockstar Games,
+      Take-Two Interactive, or any of their companies. The cover and chase artwork is AI-generated parody art and depicts no real events.
+      Not financial advice — no coin, token, or product is sold on this site.
+    </p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"><b>RESPECT +</b><span id="toastMsg">LINK COPIED</span></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
